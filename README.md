@@ -16,7 +16,7 @@ Number of Total Features in Dataset : 9
     
     To correct this issue, null values were filled with the median value. However, both 'City' and 'Country' null values were dropped from the dataset due to the concerns of keeping integrity of the data. 
    
-## **Feature Importance and Data Exploration**
+## **Data Exploration**
 
 ### Correlation Matrix utilizing Seaborn 
 
@@ -36,3 +36,24 @@ Number of Total Features in Dataset : 9
     
 ### Imbalances
 - Before moving foward, it was necessary to check for any imbalances of the data. 
+  - 499 (Clicked on Ad) / 486 (Did not Click on Ad)
+  - No drastic difference to cause data imbalances
+       
+### Feature Selection 
+- Checked for unique values in City, Country, and Ad Topic columns. 
+  - Looking at the table below, it is evident that there are abundant unique values in all three features. Thus, it will be increasingly difficult to find a pattern from these three features. As a result, utilizing other variables for prediciton is necessary. 
+       
+       ![image]()
+
+- Evaluated Time Stamp column 
+   - Extracted month and hour from Time Stamp column and dropped original column. This will allow to view month by month differences and times of traffic. 
+  
+### Label Encoding
+- Utilized LabelEncoder for Gender Column. 
+  - 0: Female, 1:Male
+
+### Correlation with **Clean** Data 
+
+¡[image]()
+
+### Relation between all Variables 
