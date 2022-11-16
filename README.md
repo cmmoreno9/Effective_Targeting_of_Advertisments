@@ -108,3 +108,6 @@ Overall Model Scores:
 3) Optimized Logistic Regression Model : MoA = 94.59%
 
 The best model to use for Effective Advertising is the Optomized Logistic Regression Model that utilizes the newton_cg solver. 
+
+## Dataset Reference
+- Dataset acquired from Kaggle : https://www.kaggle.com/datasets/hiimanshuagarwal/advertising-ef?resource=download
